@@ -1,0 +1,70 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.cv-header {
+	padding: 1em;
+	border-radius: 10px;
+	background-color: DarkCyan;
+	color: Snow;
+	box-shadow: 7px 7px 5px grey;
+	text-shadow: 4px 4px 5px DarkSlateGrey;
+}
+
+.cv-content {
+	padding: 1em;
+}
+
+.header-icon-cell {
+	width: 10%;
+}
+
+.header-description-cell {
+	text-align: left;
+	padding-left: 1em;
+	font-size: 1.1em;
+}
+
+.header-title-cell {
+	width: 55%;
+	font-size: 1.5em;
+	text-align: left;
+}
+
+.header-icon {
+	width: 100%;
+	border-style: solid;
+	border-radius: 50%;
+	box-shadow: 7px 7px 5px DarkSlateGrey;
+}
+
+.header-name {
+	font-size: 3em;
+}
+
+.content-desciption-section {
+	border-radius: 10px;
+	border: 2px solid LightGrey;
+	box-shadow: 5px 5px 5px LightGrey;
+	margin-bottom: 1.5em;
+}
+
+.content-desciption-section .content-description-title {
+	padding-left: 1em;
+	color: LightSeaGreen;
+}
+
+.content-desciption-section .content-description-item {
+	padding-left: 3em;
+	font-weight: bold;
+}
+
+.content-desciption-section .content-description-item .content-descrption-item-meta {
+	margin-top: 1em;
+	font-style: italic;
+}
+
+.content-desciption-section .content-description-item ul li {
+	margin-bottom: 1.2em;
+	font-weight: normal;
+}
